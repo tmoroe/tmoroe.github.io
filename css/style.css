@@ -1,3 +1,39 @@
+.nav-li:hover {
+    background-color: #666;
+    margin: 0;
+}
+.nav-ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+    width: 100%;
+  }
+.nav-li {
+    display: inline-block;
+    padding: 15px;
+    margin: 0 0 0 0;
+    height: 30px;
+  }
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.active {
+    background: rgb(29, 138, 172);
+}
+.active:hover {
+    background: rgb(20, 125, 156);
+    margin: 0;
+}
+body {
+    margin-top: 25px;
+    margin-left: 0;
+    background-color: rgb(95, 95, 95);
+}
 .grid {
     display: grid;
 }
