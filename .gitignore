@@ -1,6 +1,7 @@
-*
+*.*
 !*.html
 !*.css
 !*.png
 !*.jpg
+!*.gif
 !.gitignore
