@@ -1,5 +1,5 @@
 html {
-  color: rgb(71, 71, 71);
+  color: #233359;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .grid {
@@ -15,10 +15,11 @@ html {
   grid-row-end: 2;
 }
 .blinky {
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
   background-size: 18px;
-  max-height: 20px;
-  opacity: 40%;
+  min-width: 20px;
+ max-width: 20px;
+  opacity: 50%;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
