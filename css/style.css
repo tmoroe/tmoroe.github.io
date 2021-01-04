@@ -1,6 +1,7 @@
 html {
   color: #233359;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100%;
 }
 .grid {
   display: grid;
@@ -33,13 +34,30 @@ html {
   width: 200px;
   align-content: center;
 }
+.profile-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px;
+}
+.card{
+  text-align: center;
+  margin: 10px;
+  padding-left: 5px;
+  color: aliceblue;
+  background-color: #2b3c63;
+}
+.profile-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 80%;
+}
 .page{
   padding: 20px;
-  width: 100%;
   min-height: 30rem;
   background: rgb(9, 126, 155);
 }
 .nav-ul {
+  font-size: 14px;
   list-style-type: none;
   position: fixed;
   top: 0;
