@@ -107,3 +107,10 @@ html {
     height: 70px;
     margin: -50px 0 0; /* negative fixed header height */
   }
+
+  .contact-links {
+    background-color: rgb(92, 92, 92);
+    color: floralwhite;
+    padding: 10px;
+    margin: 20px 10px 10px 10px;
+  }
