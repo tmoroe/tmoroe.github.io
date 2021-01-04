@@ -1,1 +1,1 @@
-[http://tmoroe.github.com](LINK TO PAGE)
+[Link to site](http://tmoroe.github.com)
