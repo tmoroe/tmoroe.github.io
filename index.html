@@ -2,15 +2,21 @@
     <head>
         <title>Thabang Moroe - Data Engineer</title>
         <link href="css/style.css" rel="stylesheet">
+        <script src="/script/typed.min.js"></script>
+
     </head>
     <body>
             <ul class="nav-ul">
-                <li class="nav-li"><a href="#profile">About me</a></li>
+                <li class="nav-li"><a href="#me">About me</a></li>
                 <li class="nav-li"><a href="#skills">Skills</a></li>
                 <li class="nav-li"><a href="#projects">Projects</a></li>
                 <li class="nav-li"><a href="#links">Contact me</a></li>
             </ul>
-    <div class="h2" id="profile">[About Me ~]$<img src="assets/blinky.gif" class="blinky"/></div>
+    <div class="anchor" id="me"></div>
+    <div class="h2 top-heading-adj" id="profile"><p>Hi! I'm Thabang.</p>
+        <p>Here's all you need to know ^330</p><p>About Me</p>
+    </div>
+    <div class="h2">&#126; <span id="about"></span></div>
         <div class="grid page">
             <div style="text-align: center;">
                     <img class="profile-photo" src="assets/me.jpg" alt="Thabang"><br>
@@ -50,7 +56,7 @@
                 </p>
             </div>
         </div>
-        <div class="h2" id="skills">[Skills ~]$<img src="assets/blinky.gif" class="blinky"/></div>
+        <div class="h2" id="skills">&#126; My Skills</div>
         <div class="grid page">
             <div class="grid-item card">
                 UNIX <br>
@@ -83,32 +89,43 @@
                 <div class="profile-title">35%</div>
             </div>
         </div>
-        <div class="h2" id="projects">[Projects ~]$<img src="assets/blinky.gif" class="blinky"/></div>
+        <div class="h2" id="projects">	&#126; My Projects</div>
         <div class="grid page">
             <div class="grid-item card">
-                Unnamed <br>
-                <div class="profile-subtitle">Django Project</div>
-                <div class="profile-title">Not added yet</div>
+                Eval-Expr <br>
+                <div class="profile-subtitle">A string parsing calculator written in C</div>
+                <div class="profile-subtitle button-div"><button class="contact-links" onclick="location.href='https://www.codewars.com/users/tmoroe'">Go to profile</button></div>
             </div>
             <div class="grid-item card">
-                Unnamed <br>
-                <div class="profile-subtitle">Data Analysis Project</div>
-                <div class="profile-title">Not added yet</div>
+                Code Wars <br>
+                <div class="profile-subtitle">Challenges</div>
+                <div class="profile-subtitle "><button class="contact-links" onclick="location.href='https://www.codewars.com/users/tmoroe'">Go to profile</button></div>
             </div>
             <div class="grid-item card">
-                Unnamed <br>
-                <div class="profile-subtitle">C++ Data Processing</div>
-                <div class="profile-title">Not added yet</div>
+                GitHub <br>
+                <div class="profile-subtitle">Work from Umuzi</div>
+                <div class="profile-subtitle button-div">Profile</div>
+                <div class="profile-subtitle">Not added yet</div>
             </div>
             
         </div>
-        <div class="h2" id="links">[Contact Me ~]$<img src="assets/blinky.gif" class="blinky"/></div>
+        <div class="h2" id="links">	&#126; Contact Me</div>
         <div class="grid page">
-            <div class="grid-item"><a class="contact-links" href="mailto:thabang.moroe@umuzi.org">Email me: thabang.moroe@umuzi.org</a></div>
+            <div class="grid-item"><a class="contact-links" href="mailto:thabang.moroe@umuzi.org">thabang.moroe@umuzi.org</a></div>
             <div class="grid-item"><a class="contact-links" href="https://github.com/tmoroe/">Github profile</a></div>
             <div class="grid-item"><a class="contact-links" href="https://www.codewars.com/users/tmoroe">Code Wars Profile</a></div>
             <div class="grid-item"><a class="contact-links" href="https://www.hackerrank.com/tmoroe">hackerrank Profile</a></div>
         </div>
+        <div class="h2"> </div>
+
     </body>
+    <footer>
+        <script>
+            var typed = new Typed('#about', {
+                stringsElement: '#profile',
+                typeSpeed: 50
+              });
+        </script>
+    </footer>
 </html>
 <!DOCTYPE html>
