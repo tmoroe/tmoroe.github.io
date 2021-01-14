@@ -1,5 +1,5 @@
 html {
-  color: #233359;
+  color: #dcdee4;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 100%;
 }
@@ -21,9 +21,9 @@ html {
 .blinky {
   mix-blend-mode: multiply;
   background-size: 18px;
-  min-width: 20px;
- max-width: 20px;
-  opacity: 50%;
+  min-width: 40px;
+  max-height: 20px;
+  opacity: 40%;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
@@ -47,19 +47,20 @@ html {
   padding: 5px;
   margin-bottom: 5px;
   color: aliceblue;
-  background-color: #2b3c63;
+  background-color: rgb(7, 30, 39);
   max-height: 250px;
   min-width: 200px;
+  border-radius: 3%;
 }
 .profile-subtitle {
   font-size: 14px;
   font-weight: 400;
-  opacity: 80%;
+  color: cadetblue;
 }
 .page{
   padding: 20px;
   min-height: 30rem;
-  background: rgb(9, 126, 155);
+  background: rgb(11, 48, 63);
 }
 .nav-ul {
   font-size: 14px;
@@ -70,7 +71,7 @@ html {
   padding: 0;
   overflow: hidden;
   width: 100%;
-  background-color: rgb(92, 92, 92);
+  background-color: rgb(36, 35, 39);
   }
   .active {
     background-color: rgb(45, 93, 138);
@@ -81,8 +82,7 @@ html {
 
   body {
       margin: 70px 0 0 0;
-      background-color: rgb(30, 97, 141);
-
+      background-color: rgb(32, 60, 78);
   }
 
   li {
@@ -107,10 +107,24 @@ html {
     height: 70px;
     margin: -50px 0 0; /* negative fixed header height */
   }
-
   .contact-links {
-    background-color: rgb(92, 92, 92);
+    line-height: 30px;
+    background-color: rgb(44, 44, 44);
     color: floralwhite;
-    padding: 10px;
-    margin: 20px 10px 10px 10px;
+    padding: 0 5px 0 5px;
+    margin: 2px 2px 2px 2px;
+    border-radius: 3%;
+  }
+  .contact-links:hover {
+    background-color: rgb(75, 73, 73);
+
+  }
+  .anchor {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  .button-div {
+    vertical-align: bottom;
+    min-height: min-max(100px, 100px);
   }
