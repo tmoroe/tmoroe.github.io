@@ -1,4 +1,8 @@
-*.*
+**/*
+!**/
+!**/src/*_demo.py
+!**/*.xlsx
+!**/requirements.txt
 !*.html
 !*.css
 !*.png
