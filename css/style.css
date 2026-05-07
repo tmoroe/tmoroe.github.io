@@ -128,3 +128,33 @@ html {
     vertical-align: bottom;
     min-height: min-max(100px, 100px);
   }
+
+  .career-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .career-table th {
+    background-color: rgb(7, 30, 39);
+    color: cadetblue;
+    font-weight: 700;
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 2px solid cadetblue;
+  }
+
+  .career-table td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid rgb(32, 60, 78);
+    color: #dcdee4;
+  }
+
+  .career-table tbody tr:nth-child(even) {
+    background-color: rgba(7, 30, 39, 0.5);
+  }
+
+  .career-table tbody tr:hover {
+    background-color: rgb(7, 30, 39);
+  }
