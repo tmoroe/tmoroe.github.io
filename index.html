@@ -68,7 +68,6 @@ nav {
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .brand { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 18px; letter-spacing: -0.01em; display: flex; align-items: center; gap: 9px; }
-.brand .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
 .nav-links { display: flex; align-items: center; gap: 4px; }
 .nav-links a {
   font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--text-dim);
@@ -111,11 +110,7 @@ section { padding: 96px 0; position: relative; }
 .hero { padding: clamp(64px, 9vw, 120px) 0 80px; }
 .hero-grid { display: grid; grid-template-columns: 1.25fr 0.9fr; gap: 64px; align-items: center; }
 @media (max-width: 880px) { .hero-grid { grid-template-columns: 1fr; gap: 48px; } }
-.kicker { font-family: "JetBrains Mono", monospace; font-size: 14px; color: var(--accent); display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); }
-.kicker .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); position: relative; }
-.kicker .pulse::after { content: ""; position: absolute; inset: -4px; border-radius: 50%; border: 1px solid var(--accent); animation: ping 2s ease-out infinite; }
-@keyframes ping { 0% { transform: scale(.6); opacity: .8; } 100% { transform: scale(2.2); opacity: 0; } }
-.hero h1 { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: clamp(42px, 7vw, 76px); line-height: 1.02; letter-spacing: -0.03em; margin: 26px 0 0; }
+.hero h1 { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: clamp(42px, 7vw, 76px); line-height: 1.02; letter-spacing: -0.03em; margin: 0; }
 .hero h1 .accent { color: var(--accent); }
 .hero .role { font-size: clamp(19px, 2.6vw, 24px); color: var(--text); font-weight: 500; margin-top: 18px; }
 .hero .role b { color: var(--accent); font-weight: 600; }
@@ -237,14 +232,13 @@ footer { border-top: 1px solid var(--line); padding: 36px 0; }
 .foot-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
 .foot-inner .l { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--text-faint); }
 .foot-inner .r { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--text-faint); display: flex; align-items: center; gap: 8px; }
-.foot-inner .r .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 </style>
 </head>
 <body>
 
 <nav>
   <div class="wrap nav-inner">
-    <a href="#top" class="brand"><span class="dot"></span> Thabang Moroe</a>
+    <a href="#top" class="brand">Thabang Moroe</a>
     <div class="nav-links" id="navLinks">
       <a href="#about"><span class="idx">01</span>about</a>
       <a href="#skills"><span class="idx">02</span>skills</a>
@@ -266,7 +260,6 @@ footer { border-top: 1px solid var(--line); padding: 36px 0; }
 <header class="hero">
   <div class="wrap hero-grid">
     <div class="hero-text">
-      <span class="kicker reveal"><span class="pulse"></span> available for data projects</span>
       <h1 class="reveal">Building <span class="accent">data</span><br>that moves<br>decisions.</h1>
       <div class="role reveal">Big Data Engineer <b>· Enterprise Insurance</b></div>
       <p class="lede reveal">I design and organise the pipelines that turn raw, messy data into something a business can actually trust — and I translate what it's telling us into plain language.</p>
@@ -499,7 +492,7 @@ footer { border-top: 1px solid var(--line); padding: 36px 0; }
 <footer>
   <div class="wrap foot-inner">
     <span class="l">© 2026 Thabang Moroe</span>
-    <span class="r"><span class="dot"></span> Built with care, deployed on GitHub Pages</span>
+    <span class="r">Built with care, deployed on GitHub Pages</span>
   </div>
 </footer>
 
